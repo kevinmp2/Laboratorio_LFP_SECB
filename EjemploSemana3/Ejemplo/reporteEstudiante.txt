@@ -1,0 +1,22 @@
+==== Reporte de Calificaciones ===
+
+EstudienateMaria
+Calificaciones: 85 90 88 
+Promedio 87.6667
+--------------
+EstudienateJuan
+Calificaciones: 92 87 95 
+Promedio 91.3333
+--------------
+EstudienatePedro
+Calificaciones: 78 82 80 
+Promedio 80
+--------------
+EstudienateAna
+Calificaciones: 95 98 96 
+Promedio 96.3333
+--------------
+EstudienateLuis
+Calificaciones: 70 75 73 
+Promedio 72.6667
+--------------

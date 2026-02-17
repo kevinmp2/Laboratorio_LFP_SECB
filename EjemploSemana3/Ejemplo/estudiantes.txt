@@ -1,0 +1,5 @@
+Maria 85 90 88
+Juan 92 87 95
+Pedro 78 82 80
+Ana 95 98 96
+Luis 70 75 73
