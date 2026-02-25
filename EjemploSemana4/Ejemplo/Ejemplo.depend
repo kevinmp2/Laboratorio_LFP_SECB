@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1771886995 source:c:\users\kewin\onedrive\documentos\lfpb+_primerosemestre2026\repositorio\ejemplosemana4\ejemplo\main.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<vector>
+	<map>
+	<iomanip>
+

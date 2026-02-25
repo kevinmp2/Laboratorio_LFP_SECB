@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Reporte 1 - Estadisticas Generales por Curso</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f0f2f5;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #1a237e, #283593);
+            color: white;
+            padding: 30px 40px;
+            text-align: center;
+        }
+        header h1 { font-size: 28px; margin-bottom: 6px; }
+        header p  { font-size: 14px; opacity: 0.85; }
+        .container { max-width: 900px; margin: 30px auto; padding: 0 20px; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+        }
+        thead tr { background: #1a237e; color: white; }
+        thead th {
+            padding: 14px 16px;
+            text-align: center;
+            font-size: 13px;
+            letter-spacing: 0.5px;
+        }
+        tbody tr:nth-child(even) { background: #f5f7ff; }
+        tbody tr:hover { background: #e8eaf6; transition: 0.2s; }
+        tbody td {
+            padding: 12px 16px;
+            text-align: center;
+            font-size: 13px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        tbody td:first-child { text-align: left; font-weight: 600; }
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 12px;
+            color: #888;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1> Reporte 1: Estadisticas Generales por Curso</h1>
+</header>
+<div class="container">
+    <table>
+        <thead>
+            <tr>
+                <th>Curso</th>
+                <th>C�digo</th>
+                <th>Carrera</th>
+                <th>Estudiantes</th>
+                <th>Promedio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Lenguajes Formales y de Programación</td>
+                <td>771</td>
+                <td>Sistemas</td>
+                <td>8</td>
+                <td>73.19</td>
+            </tr>
+            <tr>
+                <td>Inteligencia Artificial 1</td>
+                <td>795</td>
+                <td>Sistemas</td>
+                <td>4</td>
+                <td>81.38</td>
+            </tr>
+            <tr>
+                <td>Resistencia de Materiales</td>
+                <td>348</td>
+                <td>Civil</td>
+                <td>2</td>
+                <td>69.25</td>
+            </tr>
+            <tr>
+                <td>Investigación de Operaciones 1</td>
+                <td>412</td>
+                <td>Industrial</td>
+                <td>2</td>
+                <td>67.75</td>
+            </tr>
+            <tr>
+                <td>Estructuras de Datos</td>
+                <td>601</td>
+                <td>Sistemas</td>
+                <td>4</td>
+                <td>77.12</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
