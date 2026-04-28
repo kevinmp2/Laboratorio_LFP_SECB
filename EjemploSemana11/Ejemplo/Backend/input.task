@@ -1,0 +1,9 @@
+TABLERO "Proyecto_Prueba" {
+    COLUMNA "Por_Hacer" {
+        tarea: "Disenar_AFD",
+        tarea: "Implementar_Lexer"
+    }
+    COLUMNA "Completado" {
+        tarea: "Configurar_Entorno"
+    }
+}

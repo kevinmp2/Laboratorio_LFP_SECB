@@ -1,0 +1,24 @@
+{
+    "tablero": "Proyecto_Prueba",
+    "columnas": [
+        {
+            "nombre": "Por_Hacer",
+            "tareas": [
+                {
+                    "nombre": "Disenar_AFD"
+                },
+                {
+                    "nombre": "Implementar_Lexer"
+                }
+            ]
+        },
+        {
+            "nombre": "Completado",
+            "tareas": [
+                {
+                    "nombre": "Configurar_Entorno"
+                }
+            ]
+        }
+    ]
+}
